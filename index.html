@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUpForm
-        
-    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/download.jpg">
+    <title>SignUpForm</title>
 </head>
+
 <body>
-    
+    <div class="main">
+
+        <header>
+            <h1 style="color: white">Signup</h1>
+        </header>
+
+        <main>
+            <form>
+                <input class="item" type="text" placeholder="Full Name" required /><br />
+                <input class="item" type="email" placeholder="Email" required /><br />
+                <input class="item" type="password" placeholder="Password" required /><br />
+                <input class="item" type="password" placeholder="Confirm Password" required /><br />
+                <input class="item" type="date" id="dateInput" placeholder="MM/DD/YYYY" required /><br />
+
+                <div style="margin: 15px 0">
+                    <div style="padding: 15px 15px 15px 0; display: inline">
+                        <input type="radio" required name="radio" style="background: none" /><span
+                            style="color: white; padding: 10px">Student</span>
+                    </div>
+                    <div style="padding: 15px 15px 15px 0; display: inline">
+                        <input type="radio" name="radio" required /><span
+                            style="color: white; padding: 10px">Employee</span>
+                    </div>
+                    <br />
+                </div>
+                <div style="cursor: pointer">
+                <input type="checkbox" style="margin-bottom: 30px" required /><span
+                    style="color: white; padding: 10px; margin-top: 15px">I agree to all the Terms and conditions
+                </span><br />
+                </div>
+
+                <input type="submit" value="Signup" style="margin-top: 10px; padding: 7px 25px; cursor: pointer" />
+            </form>
+        </main>
+
+        <footer></footer>
+    </div>
+
 </body>
+
 </html>

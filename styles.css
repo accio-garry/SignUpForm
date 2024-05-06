@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.main {
+    width: 712px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    padding: 70px;
+    padding-top: 7px;
+}
+
+.item {
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+
+}
+
+input[type="radio"] {
+
+    background-color: transparent;
+    border: 1px solid white;
+    /* You can adjust border properties as needed */
+    border-radius: 50%;
+    /* This creates a circular shape */
+    width: 15px;
+    /* Adjust size as needed */
+    height: 15px;
+    /* Adjust size as needed */
+    outline: none;
+    /* Removes outline on focus */
+    cursor: pointer;
+}
